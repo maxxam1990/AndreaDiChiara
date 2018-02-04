@@ -1,0 +1,51 @@
+<?php 
+
+// Initialize a session:
+session_start();
+
+// Check for a $page_title value:
+if (!isset($page_title)) {
+	$page_title = 'Andrea DiChiara';
+}
+
+// Check if user is logged in, if not, then redirect to login page.
+
+	if ($_SESSION['control'] != 1){
+		header('Location: login.php');
+	} else {
+
+
+	}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title><?php echo $page_title; ?></title>	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	<div id="header">
+	<div style="text-align:topleft">
+			<img src="img/logotrial.png" alt="" height=70px width=70px style="float: left; padding-left: 10px;"/>
+		</div>
+		<h1 class="h1_maintitle">Andrea DiChiara</h1>
+		<h2>Content Management System</h2>
+		
+	</div>
+	<div id="navigation">
+    	<p style="text-align:center">
+		<ul>
+			<a href="home.php"><li>Home</li></a>
+			<a href="addbook.php"><li>Add an Item</li></a>
+			<a href="view_books.php"><li>View Items</li></a>
+			<a href="update.php"><li>Update an Item</li></a>
+			<a href="delete.php"><li>Delete an Item</li></a>
+		</ul>
+		</p>
+	</div>
+	<div id="content"><!-- Start of the page-specific content. -->
+<!-- Script 9.1 - header.html -->

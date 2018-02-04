@@ -1,0 +1,22 @@
+<!-- I can modify this page -->
+
+<div id="Menu">
+	<p style="text-align:center">
+		<?php # Script 18.2 - footer.html
+		// This page completes the HTML template.
+
+		// Display links based upon the login status:
+			if (isset($_SESSION)) {
+
+				echo '<br/><b>Logged in as ' .	$_SESSION["first_name"] . ' ' . $_SESSION["last_name"] . '</b><br><a href="logout.php" title="Logout">Click here to Logout</a><br />';
+				
+			
+			} else { //  Not logged in.
+				echo '<a href="login.php" title="Login">Login</a><br />';
+			}
+		?>
+	</p>
+</div><!-- Menu -->
+
+</body>
+</html>

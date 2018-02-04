@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
+	</head>
+
+  <body>
+
+    <!-- Navigation -->
+    
+	<nav class="navbar fixed-top navbar-light bg-light">
+      
+		<a class="navbar-brand" href="#">
+	    <h1 class="h1_maintitle" style="font-size:250%">
+			Andrea DiChiara</h1></a>
+
+		<nav class="nav nav-pills nav-fill">
+			<a class="nav-item nav-link " href="index.php">Home</a>      
+			<a class="nav-item nav-link " href="about.php">About</a>
+			<a class="nav-item nav-link" href="catalog.php">Catalog</a>
+			<a class="nav-item nav-link" href="contactus.php">Contact</a>
+  
+<!--Paypal API             
+    
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"
+			class="navbarform">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+				<input type="image" src="https://t3.rbxcdn.com/ccdc0ff66ba3f173922a010b8f98750f" width="40px"  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="10px" height="1">
+			</form>
+
+-->
+		</nav>
+</nav>

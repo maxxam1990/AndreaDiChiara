@@ -1,0 +1,455 @@
+/* Web Fonts ------------------ */
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+@font-face { font-family: 'Edwardian'; 
+				src: url('../fonts/ITCEDSCR.TTF'); 
+				} 
+
+
+/*
+	Author	:	Christopher Robinson
+	Email		:	christopher@edg3.co.uk
+	Website	:	http://www.edg3.co.uk/
+*/
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Base Styles -------------------- */
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 serif, Helvetica, Arial, sans-serif;
+}
+h1, h2 {
+  font-family: serif, Helvetica, Arial, sans-serif;  
+}
+img {
+  height: 80px;
+  width: 80px;
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img_yes {
+
+	width: auto;
+	display: inline-block;
+}
+
+.img_mainlogo {
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+.img_table {
+  float: unset;
+  padding: 0;
+}
+
+.img_about {
+	height: 450px;
+	width:350px;
+}
+
+
+/* Pseudo-classes ------------------ */
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:link {
+  color: #3d67c7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3d67c7;
+}
+
+a:hover {
+  color: #2bb174;
+}
+
+a:active {
+  color: lightblue;
+}
+
+
+
+/* Main Styles --------------------- */
+
+ul {
+	margin-top: 0 auto;
+	padding-top: 0;
+}
+
+body {
+	background:#111;
+	color:#ddd;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+.secondary-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+/* border-bottom: 2px solid #dfe2e6;*/
+}
+
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.main-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top:1px solid #999; 
+  height:50px;
+  margin:0 auto;
+  text-align:center;
+  width:751px;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Form Data ------------------ */
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: rgba(165, 172, 177, 0.18);
+  border-radius: 8px;
+}
+
+.navbarform {
+  max-width: 5px;
+  margin: 5px auto;
+  padding: 5px 5px;
+  background: rgba(165, 172, 177, 0.18);
+  border-radius: 8px;
+}
+
+.h1_form {
+  font-family:serif;
+  border:none;
+  font-size: 1.25em;
+  color: #4b75d6;
+  padding-bottom: 20px;
+}
+
+.h1_profile {
+  font-size: 1.25em; 
+}
+
+.h1_maintitle {
+	font-family: Edwardian;
+	font-size: 3.2em;
+}
+
+.p_error {
+	color: #FF2D31;	
+	padding: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="textarea"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #f1f1f1c7;
+  border-radius: 5px;
+  color: #292929;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #efeeee;
+  background-color: #204290;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #141000;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  
+}
+
+button {
+
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #47824b; 
+    color: white;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+/* Table Styling ------------------ */
+
+table {  
+    
+    font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+   
+}
+
+td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+th {  
+    background: #F3F3F3; /* Light grey background */
+    font-weight: bold; /* Make sure they're bold */
+}
+
+td {  
+    background: rgba(165, 172, 177, 0.18); /* Lighter grey background */
+    text-align: center; /* Center our text */
+}
+
+/* header */
+#header {
+	border-bottom:1px solid #999;
+	height:100px;
+	margin:0 auto;
+	width: 80% auto;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,255), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(0,0,0,255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,255,255,255), rgba(0,0,0,100)); /* Standard syntax (must be last) */
+}
+#header h1 {
+	color:#fff;
+	font-size:350%;
+	letter-spacing:3px;
+	text-align:right;
+	font-weight: 400;
+	padding:5px;
+	margin-left: 10px;
+	margin-bottom:-10px;
+	  text-shadow: 0 1px 0 #ccc,
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);
+
+}
+#header h2 {
+	color:#fff;
+	font-size:100%;
+	text-align:right;
+	margin-left: 10px;
+	padding-left: 5px;
+	text-shadow: 0 1px 0 #ccc,
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);
+
+}
+
+#header img {
+	display: block;
+	width: auto;
+	
+
+}
+
+/* navigation */
+#navigation {
+
+	border-right:1px solid #999;
+	width:80% auto;
+	height:30px;
+	list-style:none;
+	margin: 0;
+	padding:0;
+	text-align: right;
+
+}
+#navigation li {
+	border:1px solid #999;
+	background: #ffffff57;
+	display:inline-block;
+	list-style:none;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#navigation li:hover {
+	transition-duration: 0.4s;
+	background: #333;
+    color: white;
+}
+
+#navigation a {
+	color:#e6e6e6;
+	display:inline-block;
+	text-align:center;
+	border-radius: 5px;
+}
+
+
+#navigation .active {
+	background-color: #1B58E7; /* Blue */
+    color: white;
+}
+
+/* content */
+#content {
+	height:auto;
+	margin:10px auto;
+	padding:0 0 20px;
+	width:751px;
+}
+#content h1 {
+	padding-top: 20px;
+
+}
+
+
+/* footer */
+#footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:751px;
+}
+
+/* Added by Larry Ullman: */
+.error, .ad {
+	font-weight: bold;
+	color: #C00
+}
+
+
+
+/* Carousel Style */
+.carousel-item {
+   height: 100vh;
+   min-height: 300px;
+   background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.align{
+  text-align: center;
+}
+
