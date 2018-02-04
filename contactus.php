@@ -23,8 +23,7 @@
 					<h1 class="h1_maintitle"> Send Me a Message! </h1>
 					<h3>I will be happy to get back to you soon.</h3>
 					<p>
-						Thank you for visiting my site and showing interest in my products. Please feel free to message me with any questions you might have. Don't forget you can also
-						find me on all social media. Have a great day!
+						This is not good!!
 					</p>
 					
 					<p>
