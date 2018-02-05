@@ -21,7 +21,7 @@
 
 				<div class="col-md-6">
 					<h1 class="h1_maintitle"> Send Me a Message! </h1>
-					<h3>I will be happy to get back to you soon.</h3>
+					<h3>Trial Message.</h3>
 					<p>
 						This is not good!!
 					</p>
