@@ -10,6 +10,7 @@ Contact is going to be used to send a message to Andrea, but it has not been imp
 In the footer of the website, there is a link to access the content management system.
 
 Find the instructions on how to operate it below:
+Find the instructions on how to operate it below:hbinj
 
 This content management system has been created to allow you, the administrator, to manipulate the information displayed on the main website andreadichiara.com. 
 You will find a list of tools in the navigation list menu on the top right. 
