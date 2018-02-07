@@ -20,6 +20,8 @@
 					<p>
                         
                         HELLO
+                        We have Problem
+                        Another Problem Occured
 						Take a look at our <a href="catalog.php">catalog</a> for more info.
 					</p>
 				</div>
