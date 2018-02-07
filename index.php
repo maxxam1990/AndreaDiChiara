@@ -20,7 +20,9 @@
 <!--          Slider Image-->
           <div class="carousel-item" style="background-image: url('img/carousel2.jpg')">
             <div class="carousel-caption d-none d-md-block">
-   
+                <p>
+                    "Hello World!"
+                </p>
             </div>
           </div>
             

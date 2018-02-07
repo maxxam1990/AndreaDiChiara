@@ -1,5 +1,7 @@
-test fadi gadelseed
 Andrea Dichiara's Content Management System and ecommerce site.
+
+
+***** THIS IS A TEST ******
 
 The ecommerce site is simple accessed by entering the index.php file. Once in there there are four menus on the top right corner. You have the home, about, catalog, and contact.
 
