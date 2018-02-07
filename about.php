@@ -22,6 +22,7 @@
                         HELLO
                         We have Problem
                         Another Problem Occured
+                        We fixed the problem
 						Take a look at our <a href="catalog.php">catalog</a> for more info.
 					</p>
 				</div>
