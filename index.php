@@ -1,6 +1,6 @@
 <?php include ('includes/mainheader.html');?>
-      
-      
+
+
 <!--header-->
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -16,16 +16,16 @@
 
             </div>
           </div>
-    
+
 <!--          Slider Image-->
           <div class="carousel-item" style="background-image: url('img/carousel2.jpg')">
             <div class="carousel-caption d-none d-md-block">
                 <p>
-                    "Hello World!"
+                    "Hello World! test"
                 </p>
             </div>
           </div>
-            
+
 <!--          Slider Image-->
           <div class="carousel-item" style="background-image: url('img/carousel3.jpg')">
             <div class="carousel-caption d-none d-md-block">
@@ -43,4 +43,3 @@
     </header>
 
 <?php include ('includes/mainfooter.html');?>
- 
