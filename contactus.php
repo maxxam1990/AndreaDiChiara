@@ -1,11 +1,12 @@
 <?php include ('includes/mainheader.html');
 ?>
 
+
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$template="From: $name \n Message: $message";
+$template="From: $name \nMessage: $message";
 $to = "potlurir@kean.edu";
 $subject = $_POST['subject'];;
 $header = "From: $email \r\n";
