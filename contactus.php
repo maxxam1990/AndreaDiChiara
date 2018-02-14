@@ -1,18 +1,24 @@
 <?php include ('includes/mainheader.html');
+
 ?>
+
 
 
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$template="From: $name \nMessage: $message";
-$to = "potlurir@kean.edu";
-$subject = $_POST['subject'];;
-$header = "From: $email \r\n";
-mail($to, $subject, $template, $header) or die("Error!");
-echo "We Will Respond To Your Request Within 1-2 Business Days";
+if(isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $template = "From: $name \nMessage: $message";
+    $to = "informationsystemsproject2017@gmail.com";
+    $subject = $_POST['subject'];;
+    $header = "From: $email \r\n";
+    mail($to, $subject, $template, $header) or die("Error!");
+    echo "We Will Respond To Your Request Within 1-2 Business Days";
+}
 ?>
+
+
       
 <!--header-->
 <header>
