@@ -1,5 +1,5 @@
 <?php 
-include ('includes/mainheader.html');
+//include ('includes/mainheader.html');
 
 // Page header:
 
@@ -74,7 +74,9 @@ mysqli_close($dbc); // Close the database connection.
 //		</div>";
 
 		echo "
-		 
+		 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">
+        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css\">
+        
 		  <div class=\"container-fluid\">    
         <div class=\"row\">
         <div class=\"col-lg-4 col-sm-6\">
