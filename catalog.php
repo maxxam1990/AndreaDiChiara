@@ -84,9 +84,9 @@ mysqli_close($dbc); // Close the database connection.
                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
                 </div>
         </div>
-        
-        
-        ";
+        </div>
+        </div>
+       ";
 	} ?>
 	
 </p>
