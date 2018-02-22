@@ -78,7 +78,6 @@ mysqli_close($dbc); // Close the database connection.
         <link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css\">
         
 		  <div class=\"container-fluid\">    
-        <div class=\"row\">
         <div class=\"col-lg-4 col-sm-6\">
             <div class=\"thumbnail\">
          <img src='uploads/$imageurl[$i]'>
@@ -88,7 +87,7 @@ mysqli_close($dbc); // Close the database connection.
         </div>
         
        
-        </div>
+        
         
         
         </div>
