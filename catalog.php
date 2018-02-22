@@ -73,191 +73,189 @@ mysqli_close($dbc); // Close the database connection.
 			</div>
 		</div>";
 
-	} ?>
+	}
+
+	echo "
 	
-</p>
+	<div class=\"container-fluid\">
+    <div class=\"jumbotron\">
 
-
-<html>
-<div class="container-fluid">
-    <div class="jumbotron">
-
-        <h1><span class="fa fa-camera-retro" aria-hidden="true"></span> The Image Gallery</h1>
-        <p><span class="fa fa-camera-retro" aria-hidden="true"></span> Created By Rahul Potluri</p>
+        <h1><span class=\"fa fa-camera-retro\" aria-hidden=\"true\"></span> The Image Gallery</h1>
+        <p><span class=\"fa fa-camera-retro\" aria-hidden=\"true\"></span> Created By Rahul Potluri</p>
 
     </div>
 
-    <div class="row">
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+    <div class=\"row\">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
-            </div>
-        </div>
-
-
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
-                <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
-                <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
-                <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
-                <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
-                <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
-                <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
+                <br>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
+                <br>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
+                <br>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="http://i.imgur.com/qK42fUu.jpg">
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
                 <br>
-                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
+                <br>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
+                <br>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class=\"col-lg-4 col-sm-6\">
+            <div class=\"thumbnail\">
+                <img src=\"http://i.imgur.com/qK42fUu.jpg\">
+                <br>
+                <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
             </div>
         </div>
 
@@ -266,12 +264,26 @@ mysqli_close($dbc); // Close the database connection.
 
 </div>
 
+\";
+	
+	
+	";
 
 
 
 
 
-</html>
+
+
+
+
+
+
+	?>
+	
+</p>
+
+
 
 
 <?php
