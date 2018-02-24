@@ -28,10 +28,10 @@ if(isset($_POST['submit'])) {
         <div class="row">
 				<div class="col-md-6">
 					<form action="contactus.php" method="post">
-					<p>Name: <input type="text" name="name" size="20" maxlength="20" value="<?php if (isset($_POST['name'])) echo $_POST['name']; ?>"/> </p>
-					<p>E-mail: <input type="email" name="email" size="30" maxlength="30" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>"/> </p>
-					<p>Subject: <input type="text" name="subject" size="50" maxlength="50" value="<?php if (isset($_POST['subject'])) echo $_POST['subject']; ?>"/> </p> 
-					<p>Message: <input type="textarea" name="message" size="500" maxlength="500" value="<?php if (isset($_POST['message'])) echo $_POST['message']; ?>"  /></p>
+					<p>Name: <input type="text" name="name" size="20" maxlength="20" required value="<?php if (isset($_POST['name'])) echo $_POST['name']; ?>"/> </p>
+					<p>E-mail: <input type="email" name="email" size="30" maxlength="30" required value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>"/> </p>
+					<p>Subject: <input type="text" name="subject" size="50" maxlength="50" required value="<?php if (isset($_POST['subject'])) echo $_POST['subject']; ?>"/> </p>
+					<p>Message: <input type="textarea" name="message" size="500" maxlength="500" required value="<?php if (isset($_POST['message'])) echo $_POST['message']; ?>"  /></p>
 					
 					<p><button type="submit" name="submit" class="btn btn-primary">Send Message</button></p>
 					</form>
