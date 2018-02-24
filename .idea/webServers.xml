@@ -2,11 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="27787624-7314-461e-9d7f-46f6f6975268" name="XAMPP Apache" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="$APPLICATION_HOME_DIR$/bin/C:\xampp\htdocs" accessType="MOUNT" />
-      </webServer>
-      <webServer id="f0c208ec-e133-44e4-9d1e-d99365234ee8" name="Website" url="http://files.000webhost.com  ">
-        <fileTransfer host="files.000webhost.com  " port="21" rootFolder="public_html">
+      <webServer id="f0c208ec-e133-44e4-9d1e-d99365234ee8" name="Website" url="andreadichiara.epizy.com/htcdocs">
+        <fileTransfer host="ftp.epizy.com " port="21" rootFolder="public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

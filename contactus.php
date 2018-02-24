@@ -39,14 +39,6 @@ if(isset($_POST['submit'])) {
 
 				<div class="col-md-6">
 					<h1 class="h1_maintitle"> Send Me a Message! </h1>
-					<h3>Trial Message.</h3>
-					<p>
-						This is not good!!
-					</p>
-					
-					<p>
-						<b>IMPORTANT NOTICE: </b> The contact us form doesn't work at this moment. We are working with our team to make sure we get this feature in our next update. 
-					</p>
 				</div> 
             </div>
             
