@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e22f922-1834-4c3c-8639-6ae05f7a855c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contactus.php" afterPath="$PROJECT_DIR$/contactus.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -375,7 +374,7 @@
       <workItem from="1519248498180" duration="4761000" />
       <workItem from="1519322598603" duration="4000" />
       <workItem from="1519322606386" duration="2000" />
-      <workItem from="1519505371707" duration="1219000" />
+      <workItem from="1519505371707" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit - Trial">
       <created>1517752811227</created>
@@ -524,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519507047583</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updated the ContactUS.php with required keyword in html">
+      <created>1519507202986</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1519507202986</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13882000" />
+    <option name="totallyTimeSpent" value="13941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -609,7 +615,8 @@
     <MESSAGE value="Commented out your code and update the code with image gallery" />
     <MESSAGE value="Change the DB Connection" />
     <MESSAGE value="Bought the code back to original format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bought the code back to original format" />
+    <MESSAGE value="Updated the ContactUS.php with required keyword in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the ContactUS.php with required keyword in html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
