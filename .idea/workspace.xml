@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e22f922-1834-4c3c-8639-6ae05f7a855c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mysqli_connect.php" afterPath="$PROJECT_DIR$/mysqli_connect.php" />
+      <change beforePath="$PROJECT_DIR$/catalog.php" afterPath="$PROJECT_DIR$/catalog.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysqli_connect.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mysqli_connect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysqli_connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -84,27 +84,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="catalog.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
               <folding>
-                <marker date="1519505448549" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
-                <marker date="1519505448549" expanded="true" signature="343:415" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="375:415" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1116:1859" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1144:1215" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1243:1644" ph="..." />
-                <marker date="1519505448549" expanded="false" signature="1298:1313" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1356:1565" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1386:1451" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1398:1437" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1481:1552" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1493:1538" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1599:1632" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1681:1698" ph="..." />
-                <marker date="1519505448549" expanded="true" signature="1699:1848" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
+                <marker date="1519507026406" expanded="true" signature="343:415" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="375:415" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1110:1799" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1136:1203" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1229:1592" ph="..." />
+                <marker date="1519507026406" expanded="false" signature="1280:1295" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1336:1523" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1364:1421" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1374:1409" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1449:1512" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1459:1500" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1553:1582" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1627:1644" ph="..." />
+                <marker date="1519507026406" expanded="true" signature="1645:1790" ph="..." />
               </folding>
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/contactus.php" />
-        <option value="$PROJECT_DIR$/catalog.php" />
         <option value="$PROJECT_DIR$/mysqli_connect.php" />
+        <option value="$PROJECT_DIR$/catalog.php" />
       </list>
     </option>
   </component>
@@ -375,7 +375,7 @@
       <workItem from="1519248498180" duration="4761000" />
       <workItem from="1519322598603" duration="4000" />
       <workItem from="1519322606386" duration="2000" />
-      <workItem from="1519505371707" duration="676000" />
+      <workItem from="1519505371707" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit - Trial">
       <created>1517752811227</created>
@@ -510,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519505477643</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Change the DB Connection">
+      <created>1519506646776</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1519506646776</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13339000" />
+    <option name="totallyTimeSpent" value="13734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -593,7 +600,8 @@
     <MESSAGE value="Updated the Code" />
     <MESSAGE value="Changed the Database Info" />
     <MESSAGE value="Commented out your code and update the code with image gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented out your code and update the code with image gallery" />
+    <MESSAGE value="Change the DB Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the DB Connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -958,35 +966,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog.php">
+    <entry file="file://$PROJECT_DIR$/mysqli_connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
-          <folding>
-            <marker date="1519505448549" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
-            <marker date="1519505448549" expanded="true" signature="343:415" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="375:415" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1116:1859" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1144:1215" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1243:1644" ph="..." />
-            <marker date="1519505448549" expanded="false" signature="1298:1313" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1356:1565" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1386:1451" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1398:1437" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1481:1552" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1493:1538" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1599:1632" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1681:1698" ph="..." />
-            <marker date="1519505448549" expanded="true" signature="1699:1848" ph="..." />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysqli_connect.php">
+    <entry file="file://$PROJECT_DIR$/catalog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <marker date="1519507026406" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
+            <marker date="1519507026406" expanded="true" signature="343:415" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="375:415" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1110:1799" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1136:1203" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1229:1592" ph="..." />
+            <marker date="1519507026406" expanded="false" signature="1280:1295" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1336:1523" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1364:1421" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1374:1409" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1449:1512" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1459:1500" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1553:1582" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1627:1644" ph="..." />
+            <marker date="1519507026406" expanded="true" signature="1645:1790" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
