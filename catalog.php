@@ -12,10 +12,16 @@ $r = @mysqli_query ($dbc, $q); // Run the query.
 
 // Count the number of returned rows:
 $num = mysqli_num_rows($r);
-echo '  <div class="jumbotron">
-        <div class="container">
-		<h1 class="h1_maintitle">Catalog</h1>';
-
+echo '	<div class="container gallery-container">
+			<h1 class="h1_maintitle">Catalog</h1>
+			<p class="page-description text-center">Thumbnails With Title And Description</p>
+			
+			<div class="tz-gallery">
+			<div class="row">';
+					
+		
+			
+		
 if ($num > 0) { // If it ran OK, display the records.
 
 	// Fetch and print all the records:
@@ -40,51 +46,31 @@ if ($num > 0) { // If it ran OK, display the records.
 
 mysqli_close($dbc); // Close the database connection.
 ?>
-
-
-
+<p>
 	<?php for ($i = 0; $i < count($itemname); $i++) {
-
 		echo
-		"<br>
-			<div class='row'>
-			<div class='col-md-6'>
-				<img src='uploads/$imageurl[$i]'  class='img_about'>
-			</div>
-			<div class='col-md-6'>
-				<br><br>
-				<h1 class='h1_maintitle' style='text-align:left'>$itemname[$i]</h1>
-				<div class='row'>
-					<div class='col-md-6'>
-						<p>
-							$description[$i]
-						</p>
+		"			<div class='col-sm-6 col-md-4'>
+						<div class='thumbnail text-center'>
+							<a class='lightbox' href='uploads/$imageurl[$i]'>
+								<img src='uploads/$imageurl[$i]' class='img_catalog' id='bootstrap-override' alt='Trial'>
+							</a>
+							<div class='caption'>
+								<h3>$itemname[$i]</h3>
+								<p>$description[$i]</p>
+							</div>
+							<div>
+								<button type='button' class='btn btn-success'>Add to Cart</button>
+							</div>
+						</div>
 					</div>
-					<div class='col-md-6'>
-						<p>
-							SKU: $serialnumber[$i]
-						</p>
-					</div>
-				</div>
-				<h4>Price:</h4>
-					<h2>
-						$$price[$i]
-					</h2>
+				";
+    }
+	
+	echo "	</div>
 			</div>
-			<div class='col-md-12' style='text-align:center'>
-				<p>---------------------------------------------------------------------------------------------------------------------------</p>
-			</div>
-		</div>";
-
-}
-    ?>
-
-
-
-
-
-
-
+			</div>";
+	?>
+	
 
 
 
