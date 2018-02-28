@@ -41,9 +41,19 @@ if ($num > 0) { // If it ran OK, display the records.
 mysqli_close($dbc); // Close the database connection.
 ?>
 
-<?php   echo "<div class=\"row\">"; ?>
+<?php   echo "<div class='row'>"; ?>
 
 	<?php for ($i = 0; $i < count($itemname); $i++) {
+
+    echo "
+        <div class=\'col-lg-4 col-sm-6\'>
+            <div class=\'thumbnail\'>
+        <img src='uploads/$imageurl[$i]'>
+               <button type=\'button\' class=\'btn btn-primary\'>Add To Cart</button>
+                </div>
+        </div>";
+
+
 //		echo
 //		"<br>
 //			<div class='row'>
@@ -75,20 +85,15 @@ mysqli_close($dbc); // Close the database connection.
 //			</div>
 //		</div>";
 
-        echo "
-        <div class=\'col-lg-4 col-sm-6\'>
-            <div class=\'thumbnail\'>
-         <img src=\'uploads/$imageurl[$i]'  class='img_about'\>
-                <br>
-               <button type=\'button\' class=\'btn btn-primary\'>Add To Cart</button>
-                </div>
-        </div>";
+}
+    ?>
 
 
-    }
 
-	?>
-	
+
+
+
+
 
 
 
