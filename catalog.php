@@ -41,49 +41,40 @@ if ($num > 0) { // If it ran OK, display the records.
 mysqli_close($dbc); // Close the database connection.
 ?>
 
-<?php   echo "<div class='row'>"; ?>
+
 
 	<?php for ($i = 0; $i < count($itemname); $i++) {
 
-    echo "
-        <div class= 'col-lg-4 col-sm-6'>
-            <div class='thumbnail'>
-        <img src='uploads/$imageurl[$i]'>
-               <button type= 'button' class= 'btn btn-primary'>Add To Cart</button>
-                </div>
-        </div>";
-
-
-//		echo
-//		"<br>
-//			<div class='row'>
-//			<div class='col-md-6'>
-//				<img src='uploads/$imageurl[$i]'  class='img_about'>
-//			</div>
-//			<div class='col-md-6'>
-//				<br><br>
-//				<h1 class='h1_maintitle' style='text-align:left'>$itemname[$i]</h1>
-//				<div class='row'>
-//					<div class='col-md-6'>
-//						<p>
-//							$description[$i]
-//						</p>
-//					</div>
-//					<div class='col-md-6'>
-//						<p>
-//							SKU: $serialnumber[$i]
-//						</p>
-//					</div>
-//				</div>
-//				<h4>Price:</h4>
-//					<h2>
-//						$$price[$i]
-//					</h2>
-//			</div>
-//			<div class='col-md-12' style='text-align:center'>
-//				<p>---------------------------------------------------------------------------------------------------------------------------</p>
-//			</div>
-//		</div>";
+		echo
+		"<br>
+			<div class='row'>
+			<div class='col-md-6'>
+				<img src='uploads/$imageurl[$i]'  class='img_about'>
+			</div>
+			<div class='col-md-6'>
+				<br><br>
+				<h1 class='h1_maintitle' style='text-align:left'>$itemname[$i]</h1>
+				<div class='row'>
+					<div class='col-md-6'>
+						<p>
+							$description[$i]
+						</p>
+					</div>
+					<div class='col-md-6'>
+						<p>
+							SKU: $serialnumber[$i]
+						</p>
+					</div>
+				</div>
+				<h4>Price:</h4>
+					<h2>
+						$$price[$i]
+					</h2>
+			</div>
+			<div class='col-md-12' style='text-align:center'>
+				<p>---------------------------------------------------------------------------------------------------------------------------</p>
+			</div>
+		</div>";
 
 }
     ?>
