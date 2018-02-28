@@ -76,11 +76,11 @@ mysqli_close($dbc); // Close the database connection.
 //		</div>";
 
         echo "
-        <div class=\"col-lg-4 col-sm-6\">
-            <div class=\"thumbnail\">
+        <div class=\'col-lg-4 col-sm-6\'>
+            <div class=\'thumbnail\'>
          <img src=\'uploads/$imageurl[$i]'  class='img_about'\>
                 <br>
-               <button type=\"button\" class=\"btn btn-primary\">Add To Cart</button>
+               <button type=\'button\' class=\'btn btn-primary\'>Add To Cart</button>
                 </div>
         </div>";
 
