@@ -97,13 +97,19 @@
       <file leaf-file-name="catalog.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="50" column="58" lean-forward="false" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+            <state relative-caret-position="545">
+              <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
               <folding>
-                <marker date="1519837279697" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
-                <marker date="1519837279697" expanded="true" signature="343:415" ph="..." />
-                <marker date="1519837279697" expanded="true" signature="375:415" ph="..." />
-                <marker date="1519837279697" expanded="true" signature="1201:1370" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
+                <marker date="1519837631992" expanded="true" signature="343:415" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="375:415" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1162:1362" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1198:1216" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1198:1226" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1198:1347" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1690:1729" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1785:1830" ph="..." />
+                <marker date="1519837631992" expanded="true" signature="1891:1924" ph="..." />
               </folding>
             </state>
           </provider>
@@ -370,7 +376,7 @@
       <workItem from="1519505371707" duration="1464000" />
       <workItem from="1519507537816" duration="993000" />
       <workItem from="1519662811401" duration="57000" />
-      <workItem from="1519834285450" duration="2464000" />
+      <workItem from="1519834285450" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit - Trial">
       <created>1517752811227</created>
@@ -568,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519836905769</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Change the thumbnail on catalog.php">
+      <created>1519837497003</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1519837497003</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17641000" />
+    <option name="totallyTimeSpent" value="17784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -582,7 +595,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5440994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1036,13 +1049,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="50" column="58" lean-forward="false" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        <state relative-caret-position="545">
+          <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
           <folding>
-            <marker date="1519837279697" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
-            <marker date="1519837279697" expanded="true" signature="343:415" ph="..." />
-            <marker date="1519837279697" expanded="true" signature="375:415" ph="..." />
-            <marker date="1519837279697" expanded="true" signature="1201:1370" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="146:192" ph="SELECT * FRO... items" />
+            <marker date="1519837631992" expanded="true" signature="343:415" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="375:415" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1162:1362" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1198:1216" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1198:1226" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1198:1347" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1690:1729" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1785:1830" ph="..." />
+            <marker date="1519837631992" expanded="true" signature="1891:1924" ph="..." />
           </folding>
         </state>
       </provider>
